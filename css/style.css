@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    word-spacing: 3px;
+    line-height: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    text-indent: 20px;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: solid #A8D5E2 5px;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.image-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-4 img {
+    max-height: 20em;
+    width: auto;
+}
+
+.footer { 
+    position: relative; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+    background-color: #444;
+    padding: 10px;
+}
+
+.footer a{
+    color: white;
+    font-size: 20%;
+    letter-spacing: 1px;
+}
+
+.home-link a:hover{
+    color: red;
+}
+
+.home-link a:active{
+    color: purple;
+}
