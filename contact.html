@@ -10,25 +10,27 @@
 <body>
     <header>
         <section class="logo">
-            <img src="../final-website/img/logo.png" alt="Logo">
+            <img src="../final-website/img/logo.png" title="Logo" alt="Logo">
         </section>
     </header>
     <nav>
         <a href="index.html">Home</a>
         <a href="detail1.html">Roommates</a>
         <a href="detail2.html">Housing</a>
-        <a href="detail3.html">Reviews and Ratings</a>
-        <a href="detail4.html">Safety and Security</a>
+        <a href="detail3.html">Reviews</a>
+        <a href="detail4.html">Safety</a>
         <a href="contact.html">Contact</a>
     </nav>
     <article class="container">
         <section id="contact">
-            <h2>Contact Us</h2>
+            <h2><legend>Contact Us</legend></h2>
             <form action="/action_page.php">
                 <label for="fname">First name:</label>
                 <input type="text" id="fname" name="fname"><br><br>
                 <label for="lname">Last name:</label>
                 <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" value="example@gmail.com" name="email"><br><br>
                 <label for="lname">Your message:</label>
                 <input type="text" id="lname" name="lname"><br><br>
                 <input type="submit" value="Submit">
@@ -36,7 +38,7 @@
         </section>
     </article>
     <footer class="footer">
-        <a>Copyright © 2023 SUR®. All rights reserved</a>
+        <a><strong>Copyright © 2023 SUR®. All rights reserved</strong></a>
     </footer>         
 </body>
 </html>

@@ -1,12 +1,16 @@
+/* Font for the body */
 body {
     font-family: Arial, sans-serif;
+    position: relative;
     margin: 0;
-    padding: 0;
+    padding-bottom: 20%;
     background-color: #f4f4f4;
     word-spacing: 3px;
     line-height: 20px;
+    float: none;
 }
 
+/* Font for the header */
 header {
     background-color: #ffffff;
     color: #fff;
@@ -22,6 +26,12 @@ nav {
     background-color: #444;
     padding: 10px;
     text-align: center;
+}
+
+@media (max-width: 40em) {
+    nav {
+        font-size: 12px;
+    }
 }
 
 nav a {
@@ -51,6 +61,7 @@ nav a {
 }
 
 .image-container {
+    position: static;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -58,6 +69,20 @@ nav a {
 .image-container img {
     max-width: 100%;
     height: auto;
+}
+
+@media (max-width: 30em) {
+    .image-container img {
+        max-width: 17em;
+        height: auto;
+    }
+}
+
+@media (max-width: 30em) {
+    .image-4 img {
+        max-width: 10em;
+        height: auto;
+    }
 }
 
 .contact-form {
@@ -91,8 +116,9 @@ nav a {
 }
 
 .footer { 
-    position: relative; 
+    position: absolute; 
     bottom: 0; 
+    right: 0;
     left: 0; 
     z-index: 10;
     background-color: #444;
@@ -101,8 +127,8 @@ nav a {
 
 .footer a{
     color: white;
-    font-size: 20%;
-    letter-spacing: 1px;
+    font-size: 50%;
+    letter-spacing: 2px;
 }
 
 .home-link a:hover{
@@ -111,4 +137,8 @@ nav a {
 
 .home-link a:active{
     color: purple;
+}
+
+.legend {
+    font-weight: bold;
 }
